@@ -99,6 +99,9 @@
 
         <item name="radioButtonStyle">@style/Widget.DS.RadioButton</item>
         <item name="checkboxStyle">@style/Widget.DS.CheckBox</item>
+        <item name="toolbarStyle">@style/Widget.DS.Toolbar</item>
+        <item name="toolBarPrimaryStyle">@style/Widget.DS.Toolbar.Primary</item>
+        <item name="toolBarSecondaryStyle">@style/Widget.DS.Toolbar.Secondary</item>
     </style>
 
     <style name="Theme.DsBaseDark" parent="Theme.MaterialComponents.DayNight">
@@ -200,5 +203,8 @@
 
         <item name="radioButtonStyle">@style/Widget.DS.RadioButton</item>
         <item name="checkboxStyle">@style/Widget.DS.CheckBox</item>
+        <item name="toolbarStyle">@style/Widget.DS.Toolbar</item>
+        <item name="toolBarPrimaryStyle">@style/Widget.DS.Toolbar.Primary</item>
+        <item name="toolBarSecondaryStyle">@style/Widget.DS.Toolbar.Secondary</item>
     </style>
 </resources>

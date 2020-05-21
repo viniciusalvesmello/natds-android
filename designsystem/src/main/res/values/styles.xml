@@ -146,12 +146,44 @@
         <item name="android:windowContentOverlay">@dimen/ds_appbar_overlay</item>
     </style>
 
-    <style name="Widget.Natura.Toolbar.Primary">
+    <style name="Widget.DS.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?colorSurface</item>
+        <item name="android:textColor">?colorOnSurface</item>
+        <item name="titleTextColor">?colorOnSurface</item>
+        <item name="colorControlNormal">?colorOnSurface</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ds_toolbar_height</item>
+    </style>
+
+    <style name="Widget.DS.Toolbar.Theme" parent="Widget.AppCompat.ActionBar">
+        <item name="tint">?colorOnPrimary</item>
+        <item name="iconTint">?colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.DS.Toolbar.Primary" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="titleTextColor">?colorOnPrimary</item>
+        <item name="colorControlNormal">?colorOnSurface</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ds_toolbar_height</item>
+    </style>
+
+    <style name="Widget.DS.Toolbar.Secondary" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?colorSecondary</item>
+        <item name="android:textColor">?colorOnSecondary</item>
+        <item name="titleTextColor">?colorOnSecondary</item>
+        <item name="colorControlNormal">?colorOnSurface</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ds_toolbar_height</item>
+    </style>
+
+    <style name="Widget.Natura.Toolbar.Primary" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">?colorPrimary</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
 
-    <style name="Widget.Natura.Toolbar.Secondary">
+    <style name="Widget.Natura.Toolbar.Secondary" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">?colorSecondary</item>
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>

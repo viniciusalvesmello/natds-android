@@ -86,4 +86,9 @@
     <attr name="elevation09" format="dimension"/>
     <attr name="elevation10" format="dimension"/>
 
+    <!-- app bar styles attributes -->
+    <attr name="toolBarPrimaryStyle" format="reference"/>
+    <attr name="toolBarSecondaryStyle" format="reference"/>
+
+
 </resources>

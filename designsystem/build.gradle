@@ -3,6 +3,9 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply from: "$rootDir/tools/publish.gradle"
 apply from: "$rootDir/tools/ktlint.gradle"
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.mlcsouza'
 
 android {
     compileSdkVersion rootProject.compileSdkVersion

@@ -39,14 +39,14 @@ class TextField @JvmOverloads constructor(
     private val SUCCESS_ICON = "EA15"
     private val ERROR_ICON = "EA13"
 
-    private val inputLabel by lazy { findViewById<TextView>(R.id.text_field_input_label) }
+    val inputLabel by lazy { findViewById<TextView>(R.id.text_field_input_label) }
 
     private val inputBox by lazy { findViewById<LinearLayout>(R.id.text_field_input_box) }
     private val inputValue by lazy { findViewById<EditText>(R.id.text_field_input_value) }
     private val inputIcon by lazy { findViewById<FontIcon>(R.id.text_field_input_icon) }
 
     private val footerBox by lazy { findViewById<LinearLayout>(R.id.text_field_input_footer_box) }
-    private val footerValue by lazy { findViewById<TextView>(R.id.text_field_input_footer) }
+    val footerValue by lazy { findViewById<TextView>(R.id.text_field_input_footer) }
     private val footerIcon by lazy { findViewById<FontIcon>(R.id.text_field_input_footer_icon) }
 
     override fun setEnabled(enabled: Boolean) {

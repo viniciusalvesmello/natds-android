@@ -69,6 +69,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ExpansionPanelActivity::class.java))
         }
 
+        dialogButton.setOnClickListener {
+            startActivity(Intent(this, DialogsActivity::class.java))
+        }
+
         btnSelection.setOnClickListener {
             startActivity(Intent(this, SelectionControlActivity::class.java))
         }

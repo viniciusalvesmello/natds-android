@@ -40,8 +40,9 @@
     <style name="Theme.Natura.Dialog.Standard" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert">
         <item name="buttonBarPositiveButtonStyle">@style/Widget.DS.Button</item>
         <item name="buttonBarNegativeButtonStyle">@style/Widget.DS.Button.TextButton</item>
+        <item name="alertDialogStyle">@style/Widget.DS.Button.TextButton</item>
+        <item name="android:windowTitleStyle">@style/Heading6</item>
     </style>
-
 
     <style name="Theme.NaturaDark" parent="Theme.DsBaseDark">
         <item name="colorPrimary">@color/natPrimary</item>

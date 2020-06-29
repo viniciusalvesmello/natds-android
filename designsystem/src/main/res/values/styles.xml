@@ -52,7 +52,7 @@
         <item name="android:textSize">@dimen/ds_size_h6</item>
         <item name="android:lineSpacingMultiplier">@dimen/ds_line_height_medium</item>
         <item name="android:textColorPrimary">?colorHighEmphasis</item>
-        <item name="android:textColor">?colorHighEmphasis</item>
+        <item name="android:textColor">#FF0000</item>
     </style>
 
     <style name="Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">

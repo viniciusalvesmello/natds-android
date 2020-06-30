@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.natura.android.dialog.DialogStandard
 import com.natura.android.sample.R
 import kotlinx.android.synthetic.main.activity_dialogs.*
 
@@ -23,15 +22,6 @@ class DialogsActivity : AppCompatActivity() {
     }
 
     private fun buildDialog() {
-
-        val dialog = DialogStandard(this, R.style.Theme_Natura_Dialog_Standard)
-        dialog.setTitle(R.string.app_name)
-        //... seta tudo
-        dialog.create()
-
-
-
-
         val dialogBuilder = AlertDialog.Builder(this)
         dialogBuilder.setTitle("teste Alert Dialog")
         dialogBuilder.setView(R.layout.content_standard_dialog)

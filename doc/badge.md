@@ -47,7 +47,7 @@ For that to happen, it is necessary to instantiate the BadgeDrawable class, pass
 
 * Create a new instance of BadgeDrawable passing the context, the number that you want to be displayed and the image will be inflated with Badge.
 
-``` android
+``` kotlin
     val badgeDrawable: BadgeDrawable
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -58,6 +58,6 @@ For that to happen, it is necessary to instantiate the BadgeDrawable class, pass
    ```
 
 * If you need to update the number inside a Badge, call the method 'updateNotificationBadge'
-```android
+```kotlin
    badgeDrawable.updateBadgeDrawable(number)
    ```
